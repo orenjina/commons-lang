@@ -451,8 +451,6 @@ public class TypeUtilsTest<B> {
         assertTrue(TypeUtils.isAssignable(fClassType, dClassType));
         aClass.eClass = aClass.fClass;
         assertTrue(TypeUtils.isAssignable(fClassType, eClassType));
-		
-		assertTrue(TypeUtils.isInstance("1", null) == false);
     }
 
     public void delegateBooleanAssertion(final Type[] types, final int i2, final int i1, final boolean expected) {
